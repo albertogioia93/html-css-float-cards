@@ -14,11 +14,12 @@ h2 {
     padding: 30px;
 }
 
-p {
+#lorem {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 25px;
     padding: 0 25px;
+    color: black;
 }
 
 .clearfix::after {
@@ -31,8 +32,6 @@ p {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    /* background-color: pink; */
-    
 }
 
 
@@ -48,8 +47,28 @@ p {
 .box-image {
     float: left;
     width: 30%;
+    
+}
+
+.box-content {
+    float: left;
+    width: 70%;
+    padding: 10px 5px;
 }
 
 .img {
     width: 100%;
+    display: block;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#mail {
+    color: aqua;
 }
