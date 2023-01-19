@@ -39,7 +39,6 @@ h2 {
     height: 83px;
     width: calc(100% / 3 - 20px);
     background-color: black;
-    /* border: 1px solid red; */
     float: left;
     margin: 20px 10px;
 }
@@ -72,3 +71,4 @@ p {
 #mail {
     color: aqua;
 }
+    
