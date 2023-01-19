@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: #e53170;
+    padding: 30px;
+}
+
+p {
+    text-align: center;
+    padding: 25px 200px;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: '';
+    clear: both;
+}
+
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
