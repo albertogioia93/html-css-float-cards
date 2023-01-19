@@ -18,6 +18,7 @@ p {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 25px;
+    padding: 0 25px;
 }
 
 .clearfix::after {
@@ -27,18 +28,28 @@ p {
 }
 
 .container {
-    /* max-width: 1000px; */
-    /* margin: 0 auto;
-    background-color: pink; */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: pink; */
     
 }
 
 
 .box {
-    height: 80px;
-    width: 30%;
+    height: 83px;
+    width: calc(100% / 3 - 20px);
     background-color: black;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     float: left;
     margin: 20px 10px;
+}
+
+.box-image {
+    float: left;
+    width: 30%;
+}
+
+.img {
+    width: 100%;
 }
